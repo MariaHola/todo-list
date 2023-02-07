@@ -32,7 +32,7 @@
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
         
-        removeButtons.forEach((removeButtons, index) => {
+        removeButtons.forEach((removeButton, index) => {
           removeButton.addEventListener("click", () => {
             removeTask(index);
           });
@@ -41,7 +41,7 @@
         const toggleDoneButtons = document.querySelectorAll(".js-done");
         
         toggleDoneButtons.forEach((toggleDoneButton, index) => {
-          removeButton.addEventListener("click", () => {
+          toggleDoneButton.addEventListener("click", () => {
             toggleTaskDone(index);
           });
         });
@@ -83,9 +83,9 @@
 
         const form = document.querySelector(".js-form");
 
-        form.addEventListener("submitt", onFormSubmit);
+        form.addEventListener("submit", onFormSubmit);
 
      };
-    
+     
     init();
 }
