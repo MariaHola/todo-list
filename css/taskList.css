@@ -1,0 +1,19 @@
+.taskList {
+    background-color: #f6fbfcd8;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.taskList__header{
+    padding: 10px 10px 0 10px;
+    margin: 10px;
+}
+
+.taskList__elements {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+

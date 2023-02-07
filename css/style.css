@@ -9,7 +9,8 @@ html {
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    background-color: #efeff0;
+    background-color: #e3edf0c0;
     font-family: 'Comfortaa', cursive;
+    margin: 20px auto;
 };
 
