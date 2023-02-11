@@ -13,7 +13,7 @@
 }
 
 .input__textBox {
-    padding: 30px;
+    padding: 10px;
     display: flex;
     align-items: center;
     background-color: #f6fbfcd8;
@@ -31,6 +31,8 @@
 }
 
 .form__button {
+    display: flex;
+    align-self: flex-end;
     background-color: #1e8bc3;
     color: #ecf0f1;
     border: none;
