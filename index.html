@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO LIST</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
@@ -13,23 +12,30 @@
     <link href="css/input.css" rel="stylesheet">
     <link href="css/taskList.css" rel="stylesheet">
     <script defer src="script.js"></script>
+    <title>TO DO LIST</title>
 </head>
 
 <body class="body">
-    <header><h1 class="body__header">Lista zadań</h1></header>
-    <section class="input">
-        <h2 class="input__header">Dodaj nowe zadanie</h2>
-        <div>
-            <form class="js-form form">
-                <input class="js-newTask input__textBox" placeholder="Co jest do zrobienia?">
-                <button class="js-button form__button">Dodaj zadanie.</button>
-            </form>
+    <div class="container">
+        <header>
+            <h1 class="body__header">Lista zadań</h1></header>
+        <section class="input">
+            <h2 class="input__header">Dodaj nowe zadanie</h2>
+            <div class="input__body">
+                <form class="js-form form">
+                    <input class="js-newTask input__textBox" placeholder="Co jest do zrobienia?">
+                    <button class="js-button form__button">Dodaj zadanie.</button>
+                </form>
+            </div>
+        </section>
+     <section class="taskList">
+        <div class="taskList__container">
+            <h2 class="taskList__header">Lista zadań</h2>
+            <div class="taskList__elements js-button"></div>
         </div>
-    </section>
- <section class="taskList"></section>
- <h2 class="taskList__header">Lista zadań</h2>
- <div class="taskList__elements">
-<ul class="js-tasks taskList__list"></ul> 
- </div> 
+        <div class="taskList__list">
+            <ul class="taskList__list js-tasks"></ul>
+        </div>
+    </section>   
 </body>
 </html>
