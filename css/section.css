@@ -1,5 +1,5 @@
 .section {
-    background-color: white;
+    background-color: #ffffff ;
     margin: 10px 0;
 }
 
@@ -37,19 +37,19 @@
 
 .section__buttons {
     border: none;
-    color: teal;
+    color: #52ab98;
     background-color: transparent;
     padding: 10px;
     transition: 2s;    
 }
 
 .section__buttons:hover {
-    color: thistle;
+    color: #c8d8e4;
     cursor: pointer;
 }
 
 .section__buttons:disabled {
-    color: red;
+    color: #2b6777;
     cursor: default;
 }
 

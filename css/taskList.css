@@ -1,26 +1,36 @@
-.taskList {
+.tasks__list {
     background-color: #f6fbfcd8;
     border: 1px solid;
     border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
 
-.taskList__header{
-    padding: 10px 10px 0 10px;
-    margin: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-    background-color: #f6fbfcd8;
-}
-
-.taskList__elements {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.tasks__item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    border-bottom: 1px solid #eee;
     align-items: center;
-    padding: 5px;
-    background-color: #f6fbfcd8;
-    border: 1px solid;
-    margin: 10px;
-    border-radius: 5px;
+    padding: 10px
 }
 
+.tasks__item--hidden {
+    display: none;
+}
+
+.task__content {
+    padding: 0 10px;
+}
+
+.task__content--done {
+    text-decoration: line-through;
+}
+
+.task__button {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+}
