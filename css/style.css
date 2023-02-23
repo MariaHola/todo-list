@@ -8,6 +8,9 @@ html {
 .body {
     background-color: #e3edf0c0;
     font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 };
 
 .container {
