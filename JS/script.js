@@ -1,11 +1,11 @@
 {
     const tasks = [
         {
-            content: "nagrać podcast",
+            content: "odetchnąć głęboko",
             done: true,
         },
         {
-            content: "udostępnić nagranie",
+            content: "uśmiechnąć się",
             done: false,
         },
 
