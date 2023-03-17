@@ -7,10 +7,11 @@
 }
 
 .tasks__item {
-    list-style-type: none;
+    list-style: none;
     display: grid;
     grid-template-columns: auto 1fr auto;
-    border-bottom: 1px solid #eee;
+    grid-gap: 10px;
+    border-bottom: 1px solid #ddd;
     align-items: center;
     padding: 10px
 }
@@ -28,9 +29,25 @@
 }
 
 .js-done {
-    color: rgb(0, 64, 116)
+    background: rgb(0, 64, 116)
+}
+
+.js-done:hover {
+    background: rgb(29, 119, 192);
+}
+
+.js-done:active {
+    background: rgb(100, 172, 231);
 }
 
 .js-remove {
-    color: rgb(192, 18, 18)
+    background: hsl(348, 83%, 47%)
+}
+
+.js-remove:hover {
+    background: hsl(348, 83%, 52%);
+}
+
+.js-remove:active {
+    background: hsl(348, 83%, 57%)
 }
