@@ -13,9 +13,7 @@
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
-            content: newTaskContent,
-        });
-
+            content: newTaskContent });
         render();
     };
 
@@ -71,11 +69,12 @@
 
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
-        if (newTaskContent === "") {
-            return;
+        if (newTaskContent !== "") {
+            addNewTask(newTaskContent);
+            newTaskElement.value = "";
         }
        
-        addNewTask(newTaskContent);
+     newTaskElement.focus();
     };
 
     const init = () => {
